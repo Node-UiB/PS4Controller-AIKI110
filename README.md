@@ -17,8 +17,11 @@ Skriv i terminalen
 Dette åpner bluetooth instansen for RPi. Her kan du connecte og paire hva du vil over Bluetooth
 
 Skriv dette:
+
 2. ```agent on```
+
 3. ```default-agent```
+
 4. ```scan on```
 
 Dette starter scanning av bluetooth enheter i nærheten. Du vil få en drøss med ID'er, men PS4 kontrolleren heter noe sånt som:
