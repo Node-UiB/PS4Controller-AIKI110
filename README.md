@@ -26,9 +26,8 @@ Skriv dette:
 
 Dette starter scanning av bluetooth enheter i nærheten. Du vil få en drøss med ID'er, men PS4 kontrolleren heter noe sånt som:
 
-```
-'[NEW] Device XX:XX:XX:XX:XX:XX Wireless Controller'
-```
+
+```[NEW] Device XX:XX:XX:XX:XX:XX Wireless Controller```
 
 Kopier mac-adressen ```XX:XX:XX:XX:XX:XX``` som dukker opp med navn ```Wireless Controller```
 
