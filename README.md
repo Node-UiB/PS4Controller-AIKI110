@@ -51,9 +51,9 @@ Hvis alt funker kan du teste ut python programmet.
 
 Når du er koblet opp med PS4 kontroller, må du sjekke hvor device (ps4 kontrolleren) er registrert.
 
-Den skal ligge i '/dev/input/' mappen.
+Den skal ligge i ```/dev/input/``` mappen.
 
-Dette kan du finne ut av med det enkle python-scriptet list_devices.py
+Dette kan du finne ut av med det enkle python-scriptet ```list_devices.py```
 
 Kjør scriptet med:
 
@@ -69,9 +69,9 @@ Dette vil printe ut noe slik som:
 /dev/input/event0 vc4-hdmi-0 vc4-hdmi-0/input0
 ```
 
-I dette tilfellet er det /dev/input/event4 som har hovedfunksjonene til kontrolleren
+I dette tilfellet er det ```/dev/input/event4``` som har hovedfunksjonene til kontrolleren
 
-Hvis din heter noe annet enn event4, må du oppdatere følgende verdi i programmet ps4controller.py:
+Hvis din heter noe annet enn event4, må du oppdatere følgende verdi i programmet ```ps4controller.py```:
 
 ```
 self.dev = InputDevice('/dev/input/event*')
@@ -79,4 +79,4 @@ self.dev = InputDevice('/dev/input/event*')
 
 Nå kan du kjøre programmet
 
-2. python3 ps4controller.py
+2. ```python3 ps4controller.py```
