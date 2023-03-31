@@ -23,6 +23,7 @@ Kopier mac-adressen (XX:XX:XX:XX:XX:XX) som dukker opp med navn 'Wireless Contro
 
 5. connect XX:XX:XX:XX:XX:XX (mac-adressen på din enhet)
 
+'''
 Attempting to connect to XX:XX:XX:XX:XX:XX
 [CHG] Device XX:XX:XX:XX:XX:XXConnected: yes
 [CHG] Device XX:XX:XX:XX:XX:XX UUIDs: 00001124-0000-1000-8000-00805f9b34fb
@@ -30,7 +31,7 @@ Attempting to connect to XX:XX:XX:XX:XX:XX
 [CHG] Device XX:XX:XX:XX:XX:XX ServicesResolved: yes
 [CHG] Device XX:XX:XX:XX:XX:XX Paired: yes
 Connection successful
-
+'''
 6. trust XX:XX:XX:XX:XX:XX (mac-adressen på din enhet)
 7. sudo jstest /dev/input/js0
 
