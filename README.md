@@ -73,7 +73,7 @@ Dette vil printe ut noe slik som:
 
 I dette tilfellet er det ```/dev/input/event4``` som har hovedfunksjonene til kontrolleren
 
-Hvis din heter noe annet enn event4, må du oppdatere følgende verdi i programmet ```ps4controller.py```:
+Hvis din heter noe annet enn event4, må du oppdatere følgende verdi i linje 11 i programmet ```ps4controller.py```:
 
 ```
 self.dev = InputDevice('/dev/input/event*')
