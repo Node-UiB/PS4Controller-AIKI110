@@ -27,9 +27,9 @@ Dette starter scanning av bluetooth enheter i nærheten. Du vil få en drøss me
 '[NEW] Device XX:XX:XX:XX:XX:XX Wireless Controller'
 ```
 
-Kopier mac-adressen (XX:XX:XX:XX:XX:XX) som dukker opp med navn 'Wireless Controller'
+Kopier mac-adressen ```XX:XX:XX:XX:XX:XX``` som dukker opp med navn ```Wireless Controller```
 
-5. connect XX:XX:XX:XX:XX:XX (mac-adressen på din enhet)
+5. ```connect XX:XX:XX:XX:XX:XX``` (mac-adressen på din enhet)
 
 ```
 Attempting to connect to XX:XX:XX:XX:XX:XX
