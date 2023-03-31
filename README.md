@@ -2,7 +2,7 @@
 
 Kode og forklaring til hvordan man benytter seg av PS4 controller på robotprosjektet
 
-# Koble PS4 kontroller med raspberrypi
+# Koble PS4 kontroller til Raspberrypi
 
 Jeg fulgte instruksjonen her https://pimylifeup.com/raspberry-pi-playstation-controllers/ fra der det står "Pairing your PS4 Controller via BluetoothCTL"
 
@@ -50,7 +50,7 @@ Siste tester inputene på ps4 kontroller.
 
 Hvis alt funker kan du teste ut python programmet.
 
-# Python program
+# Kjøre python programmet for kontrolleren
 
 Når du er koblet opp med PS4 kontroller, må du sjekke hvor device (ps4 kontrolleren) er registrert.
 
